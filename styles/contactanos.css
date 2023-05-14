@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(50,89,187);
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon{
+    float: left;
+}
+
+.icon a img{
+    width: 25px;
+    height: 25px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #000741;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+li a:hover{
+    background-color: #1d3557;
+}
+
+.enter .botton {
+    width: 400px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+.enter .botton:hover{
+    background-color: #7289aa;
+}
+    /* '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+
+
+.localizacion iframe{
+    width:  100%;
+    height: 700px;
+}
+
+.localizacion frame{
+    width: 100px;
+    height: 20px;
+}
+
+.h {
+    color: white;
+    text-align: center;
+}
+
+p{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container{
+    display: grid; 
+    height: 200px;
+    /* justify-content: center;
+    align-items: center; */
+    justify-items: center;
+    width: 100%;
+      
+    
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.item1{
+    background-color:white;
+    width: 200px;
+    height: 30px;
+    margin-top: 3px;
+    text-align: center;
+    margin: 0px;
+}
+
+.item2{
+    background-color:white;
+    width: 200px;
+    height: 30px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.item3{
+    background-color:white;
+    width: 200px;
+    height: 30px;
+    margin-top: 3px;
+    text-align: center;
+}
+/* ordenadores de manera diagonal*/
+.container .item1:nth-child(1){
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.container .item2:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.container .item3:nth-child(3){
+    grid-column: 3 / 4;
+    grid-row: 3 / 4 ;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(179, 187, 237);
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #0c1d35;
+    padding-top: 20px;
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 15px 0px;
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo1 .box figure img{
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pie-pagina .grupo1 .box h2{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.pie-pagina .grupo1 .box .datos{
+    margin-bottom: 10px;
+    color: rgb(12, 12, 77);
+    display: grid;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo1 .red-social .loguitos img{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #000741;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 5px;
+}
+
+.pie-pagina .grupo1 .red-social .loguitos img:hover{
+    background-color:rgb(179, 187, 237);
+}
+
+.pie-pagina .grupo2{
+    background-color: #000741;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo2 small{
+    font-size: 15px;
+}
+
+@media screen and(max-width:800px){
+    .pie-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+}
+

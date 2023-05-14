@@ -1,0 +1,285 @@
+body{
+    background:rgb(50, 89, 187) ;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon{
+    float: left;
+}
+
+.icon a img{
+    width: 25px;
+    height: 25px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #000741;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+li a:hover{
+    background-color: #1d3557;
+}
+
+.enter .botton {
+    width: 400px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+/* -------------------end menu------------------------------------------------------------------------- */
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.encabezado{
+    background: white;
+    font-family: 'calibri';
+    color: blue;
+}
+
+h2{color: blue;}
+
+.contenedor-body{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 120%;
+    padding: 5px;
+}
+
+.subcontainer1{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 40%;
+    display: inline-block;
+    
+}
+
+.cuadro-izquierdo1{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border: 2px solid;
+    text-align: center;
+}
+
+.cuadro-izquierdo1 img{
+    width: 50%
+}
+
+.cuadro-derecho1{
+    float: right;
+    background-color: #ffffff;
+    width: 64%;
+    height: 200px;
+    border: 2px solid;
+
+}
+
+    
+.cuadro-derecho1 .boton1{
+    width: 100px;
+    height: 50px;
+    border: none;  
+    
+}
+
+.cuadro-derecho1 .boton2{
+    width: 11%;
+    height: 70px;
+    border: none;
+    outline: none;
+    
+}
+button.boton2:focus{
+    outline: none;
+    background: white;
+}
+
+
+.boton3{
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    
+    
+}
+button.boton3:focus{
+    background: white;
+}
+.boton4{
+    margin: 30px;
+    width: 110px;
+    height: 70px;
+    
+    
+    
+}
+button.boton4:focus{
+    outline: none;
+    background: white;
+}
+
+
+.subcontainer2{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 40%;
+    display: inline-block;
+     
+    
+}
+.cuadro-izquierdo2{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border: 2px solid;
+    float: left;
+    text-align: center;
+
+}
+
+.cuadro-izquierdo2 img{
+    width: 50%;
+
+ 
+}
+
+.cuadro-derecho2{
+    float: right;
+    background-color: #ffffff;
+    width: 64%;
+    height: 200px;
+    border: 2px solid;
+}
+
+.subcontainer3{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 40%;
+    display: inline-block;
+    
+}
+.cuadro-izquierdo3{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border: 2px solid;
+    float: left;
+    text-align: center;
+
+}
+
+.cuadro-izquierdo3 img{
+    width: 70%;
+    margin: 5px;
+}
+
+.cuadro-derecho3{
+    float: right;
+    background-color: #ffffff;
+    width: 64%;
+    height: 200px;
+    border: 2px solid;
+}
+
+
+.precio{
+    text-align: right;
+    margin: 130px;
+    margin-top: -30px;
+}
+.cuadritos{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.numero{
+    float: left;
+    margin: 30px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.abajo{
+    background: #dfd9d9;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+
+}
+.pedido-minimo{
+    background: grey;
+    font-size: 30px;
+    text-align: center;
+}
+.total{
+    margin: 20px;
+    margin-top: -90px;
+    float: right;
+}
+.confirmar{
+    background: #3c79be;
+    font-size: 30px;
+}
+.confirmar:hover{
+    background: #7696ac;
+}
+.botones{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    
+}
+.derecha{
+    float: right;
+    margin: 110px;
+    margin-top: 1px;
+}
+.carrito{
+    float: right;
+    width: 40px;
+    height: 40px;
+
+}
