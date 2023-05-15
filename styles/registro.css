@@ -6,35 +6,35 @@ body{
 }
 
 .icono img{
-    width:150px; 
-    height:150px;
+    width:10rem; 
+    height:10rem;
 }
 
 .form-register {
-    width: 400px;
+    width: 25rem;
     background: white;
-    padding: 30px;
-    margin: 10px;
-    margin-top: 5px;
-    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    border-radius: 0.6rem;
     font-family: 'calibri';
     color: white;
 }
 
 .icono {
-    width: 400px;
+    width: 25rem;
     background: white;
-    padding: 30px;
-    margin: 10px;
-    margin-top: 5px;
-    border-radius: 10px;
-   
+    padding: 2rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    border-radius: 0.6rem;
+
 }
 
 .form-register h3 {
     color: black;
-    font-size: 23px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .form-register p {
@@ -42,31 +42,31 @@ body{
 }
 
 .controls {
-    width: 100%;
+    width: 25rem;
     background: rgb(187, 187, 187);
-    padding: 10px 2px;
-    border-radius: 20px;
-    margin-bottom: 16px;
-    border: 1px solid;
+    padding: 0.5rem 0.3rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    border: 0.4px solid;
     font-family: 'calibri';
-    font-size: 18px;
+    font-size: 1.3rem;
 
 }
 
 .form-register .botons {
-    width: 150px;
+    width: 10rem;
     background: #1f53c5;
-    border-radius: 20px;
-    padding: 12px;
+    border-radius: 2rem;
+    padding: 0.6rem;
     color: white;
-    margin: 16px 0;
-    font-size: 16px;
-    margin-left: 11px;
+    margin: 1rem ;
+    font-size: 1rem;
+    margin-left: 1rem;
 
 }
 
 div h1 {
-    margin: 30px;
+    margin: 1rem;
     color: white;
     font-family: 'calibri';
     text-align: center;

@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(50,89,187);
-    height: 170vh
+    height: 17rem
 }
 
 .icon{
@@ -10,8 +10,9 @@ body{
 }
 
 .icon a img{
-    width: 25px;
-    height: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: -0.5rem;
 }
 
 ul{
@@ -30,7 +31,7 @@ li a{
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -40,13 +41,13 @@ li a:hover{
 }
 
 .enter .botton {
-    width: 400px;
-    border-radius: 20px;
-    padding: 15px;
-    margin: 15px;
+    width: 25.5rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
     background-color: #ffffff;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     
 }
 
@@ -55,14 +56,14 @@ li a:hover{
 }
 
 .banner {
-    width:95%;
-    margin: 10px;
+    width:83rem;
+    margin: 0.5rem;
 }
 
 .tittle{
     font-family:Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 h2{
@@ -72,71 +73,71 @@ h2{
 
 p{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.4rem;
     text-align: center;
 
 }
 
 .pie-pagina{
-    width: 100%;
+    width: 84.3rem;
     background-color: rgb(179, 187, 237);
 }
 
 h1{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     color: #0c1d35;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .pie-pagina .grupo1{
-    width: 100%;
-    max-width: 1200px;
-    margin: 10px;
+    width: 100rem;
+    max-width: 60rem;
+    margin: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 15px 0px;
+    grid-gap: 5rem;
+    padding: 1rem ;
 }
 
 .pie-pagina .grupo1 .box figure{
-    width: 100%;
-    height: 100%;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .pie-pagina .grupo1 .box figure img{
-    width: 200px;
-    margin: 0px;
-    padding: 0px;
+    width: 20rem;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 .pie-pagina .grupo1 .box h2{
-    font-size: 18px;
-    margin-bottom: 25px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 .pie-pagina .grupo1 .box .datos{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     color: rgb(12, 12, 77);
     display: grid;
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .pie-pagina .grupo1 .red-social .loguitos img{
     display: inline-block;
     text-decoration: none;
-    width: 40px;
-    height: 40px;
-    line-height: 45px;
-    margin-right: 10px;
+    width: 2.5rem;
+    height: 2rem;
+    line-height: 1rem;
+    margin-right: 0.5rem;
     background-color: #000741;
     text-align: center;
     transition: all 300ms ease;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 .pie-pagina .grupo1 .red-social .loguitos img:hover{
@@ -145,15 +146,15 @@ h1{
 
 .pie-pagina .grupo2{
     background-color: #000741;
-    padding: 15px 10px;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
 }
 
 .pie-pagina .grupo2 small{
-    font-size: 15px;
+    font-size: 1.4rem;
 }
- 
+
 /* @media screen and(max-width:800px){
     .pie-pagina .grupo1{
         width: 90%;
