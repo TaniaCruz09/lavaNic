@@ -12,139 +12,119 @@
     />
   </head>
   <body>
-    <div class="container">
-      <ul>
-        <li><a href="index.html">Cerrar sesion</a></li>
-        <li>
-          <img src="images/carrito-de-compras.png" class="carrito" alt="" />
-        </li>
-        <li><a href="index.html">Consultas</a></li>
-        <li><a href="contacto.html">Contactanos</a></li>
-        <li><a href="acerca.html">Sobre nosotros</a></li>
-        <li class="icon">
-          <a href=""> <img src="images/logos/facebook.png" alt="" /> </a>
-        </li>
-        <li class="icon">
-          <a href=""> <img src="images/logos/twitter.png" alt="" /> </a>
-        </li>
-        <li class="icon">
-          <a href=""> <img src="images/logos/llamadas.png" alt="" /> </a>
-        </li>
-        <li class="icon">
-          <a href=""> <img src="images/logos/mensaje.png" alt="" /> </a>
-        </li>
-      </ul>
+    <h1 class="encabezado">Selecciona tu pedido</h1>
 
-      <h1 class="encabezado">Selecciona tu pedido</h1>
-
-      <div class="contenedor-body">
-        <div class="subcontainer1">
-          <div class="cuadro-izquierdo1">
-            <img src="images/falda.png" alt="" />
-          </div>
-
-          <div class="cuadro-derecho1">
-            <h2>Falda Textil</h2>
-            <button type="button" style="margin: 10px" class="botones">
-              <img src="images/plancha.png" class="botones" />
-            </button>
-            <button type="button" style="margin: 10px" class="botones">
-              <img src="images/lavanderia.png" class="botones" />
-            </button>
-            <div class="derecha">
-              <button type="button" style="margin: 10px" class="botones">
-                <img src="images/mas.PNG" class="botones" />
-              </button>
-              <button type="button" style="margin: 10px" class="botones">
-                <img src="images/menos.PNG" class="botones" />
-              </button>
-            </div>
+    <section class="contenedor-body">
+      <!---------------seccion derecha----------------------->
+      <section class="seccion-derecha">
+        <!---------------cuadro derecho uno----------------------->
+        <section class="cuadro-derecho1">
+          <h2>Falda Textil</h2>
+          <button  class="botones-izquierda" >
+            <img src="images/plancha.png" class="imagenes" />
+          </button>
+          <button class="botones-izquierda">
+            <img src="images/lavanderia.png" class="imagenes" />
+          </button>
+          <section class="derecha">
             <h3 class="precio">Precio C$10</h3>
-          </div>
-        </div>
-
-        <div class="subcontainer2">
-          <div class="cuadro-izquierdo2">
-            <img src="images/alfombra.jpg" alt="" id="item3" />
-          </div>
-
-          <div class="cuadro-derecho2">
-            <h2>Alfombras</h2>
-
-            <button type="button" style="margin: 10px" class="botones">
-              <img src="images/plancha.png" class="botones" />
+            <button id="btnIncrementadorId" class="botones">
+              <img src="images/mas.PNG" class="imagenes" />
             </button>
-            <button type="button" style="margin: 10px" class="botones">
-              <img src="images/lavanderia.png" class="botones" />
+            <button id="btnRestaId"  class="botones">
+              <img src="images/menos.PNG" class="imagenes" />
             </button>
-            <div class="derecha">
-              <button type="button" style="margin: 10px" class="botones">
-                <img src="images/mas.PNG" class="botones" />
-              </button>
-              <button type="button" style="margin: 10px" class="botones">
-                <img src="images/menos.PNG" class="botones" />
-              </button>
-            </div>
+          </section>
+          
+        </section>
+        <!---------------cuadro derecho dos----------------------->
+        <section class="cuadro-derecho2">
+          <h2>Alfombras</h2>
+          <button  class="botones-izquierda">
+            <img src="images/plancha.png" class="imagenes" />
+          </button>
+          <button class="botones-izquierda">
+            <img src="images/lavanderia.png" class="imagenes" />
+          </button>
+          <section class="derecha">
             <h3 class="precio">Precio C$50</h3>
-          </div>
-        </div>
-
-        <div class="subcontainer3">
-          <div class="cuadro-izquierdo3" id="item5">
-            <img src="images/pantalon.jpg" alt="" id="item5" />
-          </div>
-
-          <div class="cuadro-derecho2">
-            <h2>Pantalones Textiles</h2>
-            <button type="button" style="margin: 10px" class="botones">
-              <img src="images/plancha.png" class="botones" />
+            <button id="btnIncrementa2Id"  class="botones">
+              <img src="images/mas.PNG" class="imagenes" />
             </button>
-            <button type="button" style="margin: 10px" class="botones">
-              <img src="images/lavanderia.png" class="botones" />
+            <button  id="btnResta2Id" class="botones">
+              <img src="images/menos.PNG" class="imagenes" />
             </button>
-            <div class="derecha">
-              <button type="button" style="margin: 10px" class="botones">
-                <img src="images/mas.PNG" class="botones" />
-              </button>
-              <button type="button" style="margin: 10px" class="botones">
-                <img src="images/menos.PNG" class="botones" />
-              </button>
-            </div>
+          </section>
+        </section>
+        <!---------------cuadro derecho tres----------------------->
+        <section class="cuadro-derecho2">
+          <h2>Pantalones Textiles</h2>
+          <button  class="botones-izquierda">
+            <img src="images/plancha.png" class="imagenes" />
+          </button>
+          <button class="botones-izquierda">
+            <img src="images/lavanderia.png" class="imagenes" />
+          </button>
+          <section class="derecha">
             <h3 class="precio">Precio C$30</h3>
-          </div>
-        </div>
-      </div>
+            <button id="btnIncrementa3Id" class="botones">
+              <img src="images/mas.PNG" class="imagenes" />
+            </button>
+            <button id="btnResta3Id" class="botones">
+              <img src="images/menos.PNG" class="imagenes" />
+            </button>
+          </section>
+        </section>
+      </section>
+      <!---------------seccion izquierda----------------------->
+      <section class="seccion-izquierda">
+        <!---------------seccion izquierda uno----------------------->
+        <section class="cuadro-izquierdo1">
+          <img class="falda" src="images/falda.png" />
+        </section>
 
-      <div class="cuadritos">
-        <div class="numero">1</div>
-        <div class="numero">2</div>
-        <div class="numero">...</div>
-      </div>
+        <!---------------seccion izquierda dos----------------------->
+        <section class="cuadro-izquierdo2">
+          <img class="alfombra" src="images/alfombra.jpg"  />
+        </section>
 
-      <div class="abajo">
-        <h2>Su pedido</h2>
+        <!---------------seccion izquierda tres----------------------->
+        <section class="cuadro-izquierdo3" >
+          <img class="pantalon" src="images/pantalon.jpg" alt="" />
+        </section>
+    </section>
+    <!---------------seccion de numeros----------------------->
+    <section class="contendor-cuadritos">
+        <section class="numero">1</section>
+        <section class="numero">2</section>
+        <section class="numero">...</section>
+    </section>
+    <!---------------ultima parte----------------------->
+    <section class="abajo">
+      <h2 class="pedido">Su pedido</h2>
+      <hr width="100%" color="black" />
 
-        <hr width="100%" color="black" />
-
-        <div class="pedido-minimo">
-          <h3>Pedido Minimo</h3>
-        </div>
-
-        <h3>Tienes selecionados 0</h3>
-        <h3>Hay 0 en tu carrito de compras</h3>
-
-        <hr width="100%" color="black" />
-
-        <h3>Total</h3>
-
-        <div class="total">
-          <h3>C$ 0</h3>
-          <h3>+ Gastos de envio</h3>
-        </div>
-        <a href="datos-pedido.html">
-          <button class="confirmar">Confirmar</button>
-        </a>
-      </div>
-    </div>
+      <section class="pedido-minimo">
+      <h3>Pedido Minimo</h3>
+      </section>
+      <!---------------Contenedor de calculos----------------------->
+      <section class="cajita-calculos">
+        <section class="letras">
+          <h3 ></h3>
+          <h3>Hay 0 en tu carrito de compras</h3>
+        </section>
+    </section>
+    <!---------------Contenedor de calculos----------------------->
+    <hr width="100%" color="black" />
+    <h3>Total</h3>
+    <section class="total">
+      <h3 id="mensajeId"></h3>
+      <h3>+ Gastos de envio</h3>
+    </section>
+      <a href="datos-pedido.html">
+        <button class="confirmar" id="confirmar">Confirmar</button>
+      </a>
+    </section>
+    <script src="./ecuaciones.js"></script>
   </body>
 </html>
