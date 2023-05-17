@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(50, 89, 187);
     margin: 0px;
@@ -16,9 +17,11 @@ body {
 
 h2{
     font-family: 'calibri';
+    font-size: 2rem;
 }
 h1{
     font-family: 'arial';
+    font-size: 3rem;
 }
 h3{
     color: white; 
