@@ -1,61 +1,30 @@
-const btnIncrementador = document.getElementById("btnIncrementadorId");
-const btnResta = document.getElementById("btnRestaId");
-const btnIncrementar2 = document.getElementById("btnIncrementa2Id");
-const btnResta2 = document.getElementById("btnResta2Id");
-const btnIncrementar3 = document.getElementById("btnIncrementa3Id");
-const btnResta3 = document.getElementById("btnResta3Id");
-const btnConfirmar =document.getElementById("confirmar")
-const mensajeResultado = document.getElementById("mensajeId");
+function calcularTotal() {
+  // Obtener los valores de los campos de entrada
+  let cantidadFaldas =
+    parseInt(document.getElementById("cantidad-faldas").value) || 0;
+  let cantidadAlfombras =
+    parseInt(document.getElementById("cantidad-alfombras").value) || 0;
+  let cantidadPantalones =
+    parseInt(document.getElementById("cantidad-pantalones").value) || 0;
 
-let resultado = 0;
-const falda = 10;
-const alfombras = 50;
-const pantalones = 30;
+  // Calcular el subtotal
+  let subtotal =
+    cantidadFaldas * 10 + cantidadAlfombras * 50 + cantidadPantalones * 30;
 
-let tipoBoton = ""; // Variable para almacenar el tipo de botón presionado
+  // Calcular el IVA y el costo de envío
+  let iva = subtotal * 0.01;
+  let costoEnvio = 20;
 
-const incrementar = (valor) => {
-  resultado += valor;
-  mostrarResultado();
-};
+  // Calcular el total a pagar
+  let total = subtotal + iva + costoEnvio;
 
-const restar = (valor) => {
-    if (tipoBoton === "falda" && valor != "falda" ) {
-        resultado -= valor;
-      } else if (tipoBoton === "alfombras" && resultado === alfombras && valor <= resultado) {
-        resultado -= valor;
-      } else if (tipoBoton === "pantalones" && resultado === pantalones && valor === resultado) {
-        resultado -= valor;
-      }
-  mostrarResultado();
-};
-
-const mostrarResultado = () => {
-  mensajeResultado.textContent = `C$ ${resultado}`;
-};
-
-btnIncrementador.addEventListener("click", () => {
-  tipoBoton = "falda";
-  incrementar(falda);
-});
-btnResta.addEventListener("click", () => {
-  tipoBoton = "falda";
-  restar(falda);
-});
-btnIncrementar2.addEventListener("click", () => {
-  tipoBoton = "alfombras";
-  incrementar(alfombras);
-});
-btnResta2.addEventListener("click", () => {
-  tipoBoton = "alfombras";
-  restar(alfombras);
-});
-
-btnIncrementar3.addEventListener("click", () => {
-    tipoBoton = "pantalones";
-    incrementar(pantalones);
-  });
-  btnResta3.addEventListener("click", () => {
-    tipoBoton = "pantalones";
-    restar(pantalones);
-  });
+  if (total <= 100) {
+    document.getElementById("total").textContent =
+      "Lo sentimos tu total de: " +
+      total.toFixed(2) +
+      "  " +
+      "No cumple con la cantidad minima para procesar tu pedido";
+  } else {
+    document.getElementById("total").textContent = "C$" + total.toFixed(2);
+  }
+}

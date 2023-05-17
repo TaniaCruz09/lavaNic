@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <h1 class="encabezado">Selecciona tu pedido</h1>
+    <h1 class="encabezado">Ingresa la cantidad de cada prenda que deseas que lavemos por ti</h1>
 
     <section class="contenedor-body">
       <!---------------seccion derecha----------------------->
@@ -28,12 +28,8 @@
           </button>
           <section class="derecha">
             <h3 class="precio">Precio C$10</h3>
-            <button id="btnIncrementadorId" class="botones">
-              <img src="images/mas.PNG" class="imagenes" />
-            </button>
-            <button id="btnRestaId"  class="botones">
-              <img src="images/menos.PNG" class="imagenes" />
-            </button>
+            <label for="cantidad-faldas" id="text-cantidad-pantalones">Cantidad:</label>
+            <input type="number" id="cantidad-faldas" min="0" class="cantidad-prenda"><br>
           </section>
           
         </section>
@@ -48,12 +44,9 @@
           </button>
           <section class="derecha">
             <h3 class="precio">Precio C$50</h3>
-            <button id="btnIncrementa2Id"  class="botones">
-              <img src="images/mas.PNG" class="imagenes" />
-            </button>
-            <button  id="btnResta2Id" class="botones">
-              <img src="images/menos.PNG" class="imagenes" />
-            </button>
+            <label for="cantidad-alfombras" id="text-cantidad-pantalones">Cantidad:</label>
+            <input type="number" id="cantidad-alfombras" min="0" class="cantidad-prenda"><br>
+            
           </section>
         </section>
         <!---------------cuadro derecho tres----------------------->
@@ -67,12 +60,8 @@
           </button>
           <section class="derecha">
             <h3 class="precio">Precio C$30</h3>
-            <button id="btnIncrementa3Id" class="botones">
-              <img src="images/mas.PNG" class="imagenes" />
-            </button>
-            <button id="btnResta3Id" class="botones">
-              <img src="images/menos.PNG" class="imagenes" />
-            </button>
+            <label for="cantidad-pantalones" id="text-cantidad-pantalones">Cantidad:</label>
+            <input type="number" id="cantidad-pantalones" min="0" class="cantidad-prenda"><br>
           </section>
         </section>
       </section>
@@ -101,29 +90,27 @@
     </section>
     <!---------------ultima parte----------------------->
     <section class="abajo">
-      <h2 class="pedido">Su pedido</h2>
+      <h2 class="pedido">Detalles de su pedido</h2>
       <hr width="100%" color="black" />
 
       <section class="pedido-minimo">
-      <h3>Pedido Minimo</h3>
+      <h3>Tu Pedido Minimo debe ser mayor a 100 Cordobas</h3>
       </section>
       <!---------------Contenedor de calculos----------------------->
       <section class="cajita-calculos">
         <section class="letras">
           <h3 ></h3>
-          <h3>Hay 0 en tu carrito de compras</h3>
+          <h3>Te aplicamos el 1% de IVA</h3>
         </section>
     </section>
     <!---------------Contenedor de calculos----------------------->
     <hr width="100%" color="black" />
-    <h3>Total</h3>
-    <section class="total">
+    <h3 id="total">Total</h3>
+    <section class="totalEnvio">
       <h3 id="mensajeId"></h3>
-      <h3>+ Gastos de envio</h3>
+      <h3>El Costo de envio es de C$20</h3>
     </section>
-      <a href="datos-pedido.html">
-        <button class="confirmar" id="confirmar">Confirmar</button>
-      </a>
+        <button class="confirmar" id="confirmar" onclick="calcularTotal()">calcular total</button>
     </section>
     <script src="./ecuaciones.js"></script>
   </body>
